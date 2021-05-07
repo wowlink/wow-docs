@@ -3,17 +3,6 @@ on:
   push:
     branches: main
 jobs:
-  checks:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
-      - name: Test Build
-        run: |
-          npm ci
-          npm run build
   gh-release:
     runs-on: ubuntu-latest
     steps:
@@ -21,12 +10,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - uses: webfactory/ssh-agent@v0.5.0
-        with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
         env:
-          USE_SSH: true
+          USE_SSH: false
           GIT_USER: tianhaoz95
           GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
         run: |
