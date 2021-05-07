@@ -3,7 +3,7 @@ module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://wowlink.github.io/wow-docs',
-  baseUrl: '/',
+  baseUrl: '/wow-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
