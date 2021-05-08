@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WOW Link',
+  tagline: 'A open source, fully configurable short link service 🚀🚀🚀',
   url: 'https://wowlink.github.io/wow-docs',
   baseUrl: '/wow-docs/',
   onBrokenLinks: 'throw',
@@ -11,10 +11,10 @@ module.exports = {
   projectName: 'wow-docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'WOW Link',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'WOW Link Logo',
+        src: 'img/wowlink_logo.png',
       },
       items: [
         {
@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/wowlink',
           label: 'GitHub',
           position: 'right',
         },
@@ -44,23 +44,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
@@ -69,12 +52,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/wowlink',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tianhao Zhou. Built with Docusaurus.`,
     },
   },
   presets: [

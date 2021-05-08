@@ -2,34 +2,23 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# WOW Link 101
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's get started using **WOW Link in less than 5 minutes**.
 
-## Getting Started
+## Add WOW Link search engine
 
-Get started by **creating a new site**.
+### Chrome
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+### Edge
 
-## Generate a new site
+## Try it out!
 
-Generate a new Docusaurus site using the **classic template**:
+### Chrome
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+### Edge
 
-## Start your site
+## Add customizations
 
-Run the development server:
+### Personal mapping
 
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
