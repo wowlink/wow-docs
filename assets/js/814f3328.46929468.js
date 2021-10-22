@@ -1,0 +1,1 @@
+(self.webpackChunkwow_docs=self.webpackChunkwow_docs||[]).push([[535],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"WOW Link 101","permalink":"/wow-docs/blog/wowlink_101"}]}')}}]);

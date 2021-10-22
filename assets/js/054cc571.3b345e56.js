@@ -1,0 +1,1 @@
+(self.webpackChunkwow_docs=self.webpackChunkwow_docs||[]).push([[141],{5788:function(o){"use strict";o.exports=JSON.parse('{"permalink":"/wow-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

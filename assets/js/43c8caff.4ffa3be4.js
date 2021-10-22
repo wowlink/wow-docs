@@ -1,0 +1,1 @@
+(self.webpackChunkwow_docs=self.webpackChunkwow_docs||[]).push([[549],{6433:function(o){"use strict";o.exports=JSON.parse('{"allTagsPath":"/wow-docs/blog/tags","slug":"/wow-docs/blog/tags/intro","name":"intro","count":1,"permalink":"/wow-docs/blog/tags/intro"}')}}]);

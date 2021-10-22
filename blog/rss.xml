@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WOW Link Blog</title>
+        <link>https://wowlink.github.io/wow-docs/wow-docs/blog</link>
+        <description>WOW Link Blog</description>
+        <lastBuildDate>Thu, 07 May 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[WOW Link 101]]></title>
+            <link>https://wowlink.github.io/wow-docs/wow-docs/blog/wowlink_101</link>
+            <guid>wowlink_101</guid>
+            <pubDate>Thu, 07 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a overview of the WOW Link's design.]]></description>
+            <content:encoded><![CDATA[<p>This is a overview of the WOW Link&#x27;s design.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
